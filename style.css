@@ -1,24 +1,46 @@
+/* Define o estilo do corpo da página */
 body {
-    background-color: rgb(228, 84, 208);
-    color:rgb(255, 255, 255);
-    font-family: Playfair Display;
+    background-color: #f8c1d0; /* Cor de fundo rosa suave */
+    color: #333; /* Cor do texto escuro para contraste */
+    font-family: 'Playfair Display', serif; /* Fonte serifada para um toque elegante */
     display: flex;
     justify-content: center;
-    height: 700px;
-    margin: 0px; 
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da visualização */
+    margin: 0;
 }
 
+/* Estilo do botão */
 button {
-    background-color:rgb(236, 156, 226);
-    color:black;
-    font-family: Playfair Display;
+    background-color: #f7a3b8; /* Cor de fundo rosa mais escuro para o botão */
+    color: #fff; /* Cor do texto branco */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    padding: 10px 20px; /* Adiciona preenchimento interno */
+    font-family: 'Playfair Display', serif; /* Usa a mesma fonte do corpo */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease; /* Adiciona um efeito de transição ao passar o mouse */
 }
 
+/* Estilo do botão ao passar o mouse */
+button:hover {
+    background-color: #f58a9b; /* Cor de fundo rosa ainda mais escuro ao passar o mouse */
+}
+
+/* Estilo das seções .passo */
 .passo {
-    display: none;
+    display: none; /* Esconde as seções por padrão */
+    background-color: #fff; /* Cor de fundo branca para destacar o conteúdo */
+    color: #333; /* Cor do texto escuro */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    width: 300px; /* Largura fixa para as seções */
+    text-align: center; /* Centraliza o texto */
 }
 
+/* Estilo da seção .passo ativa */
 .passo.ativo {
-    display: block;
+    display: block; /* Mostra a seção quando ativa */
 }
-
