@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(228, 84, 208);
+    color:rgb(255, 255, 255);
+    font-family: Playfair Display;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    margin: 0px; 
+}
+
+button {
+    background-color:rgb(236, 156, 226);
+    color:black;
+    font-family: Playfair Display;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+

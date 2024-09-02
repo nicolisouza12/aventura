@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Perdido na Floresta</title>
+</head>
+
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+      <p>Você acorda no meio de uma floresta após cair de um barranco. Sua ideia é tentar sair de lá para encontrar as pessoas que estavam com você.</p>
+      <button class="btn-proximo" data-proximo="1">Tentar subir pelo barranco onde caiu</button>
+      <button class="btn-proximo" data-proximo="2">Andar mata adentro</button>
+    </div>
+    <div class="passo" id="passo-1">
+      <p>Você tenta subir mas acaba escorregando</p>
+      <button class="btn-proximo" data-proximo="0">voltar</button>
+      
+    </div>
+    <div class="passo" id="passo-2">
+      <p>você acaba encontrando  uma onça pintada.</p>
+      <button class="btn-proximo" data-proximo="3">correr</button>
+      <button class="btn-proximo" data-proximo="4">se esconder</button>
+    </div>
+    <div class="passo" id="passo-3">
+      <p>a onça corre atrás de você, mas acaba se distraindo com um macaco.</p>
+      <button class="btn-proximo" data-proximo="3"></button>
+      <button class="btn-proximo" data-proximo="4">Andar mata adentro</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
